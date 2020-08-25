@@ -14,4 +14,6 @@ HTML files in 'templates' folder.
 
 Please see PowerPoint or PDF for a description of the project, technologies used, and architecture.
 
-Note the app has not been deployed and therefore only runs locally at this time.
+IMPORTANT NOTES
+The app has not been deployed and therefore only runs locally at this time.
+The API that returns car data is a paid API, therefore the API Key has been removed. If you want to test it the API Key can be provided.
