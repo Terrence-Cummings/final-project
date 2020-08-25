@@ -229,7 +229,7 @@ def handle_data():
     querystring = {"plate":plate_input,"state":state_input}
     headers = {
         'x-rapidapi-host': "us-license-plate-to-vin.p.rapidapi.com",
-        'x-rapidapi-key': "60502a255cmsh1ceceb99f5c79a3p1963a9jsn231eb1b4b9a9"
+        'x-rapidapi-key': "<insert API Key>"
         }
     response = requests.request("GET", url, headers=headers, params=querystring)
     plate_data_df = pd.DataFrame(response.json())
